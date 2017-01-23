@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://www.lucasnogueron.com.ar/sitemap.xml 
