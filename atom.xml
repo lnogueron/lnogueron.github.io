@@ -4,7 +4,7 @@
   <title><![CDATA[Seguridad Informatica e Informatica Forense]]></title>
   <link href="http://www.lucasnogueron.com.ar/atom.xml" rel="self"/>
   <link href="http://www.lucasnogueron.com.ar/"/>
-  <updated>2017-03-01T15:49:20-03:00</updated>
+  <updated>2017-03-01T15:59:32-03:00</updated>
   <id>http://www.lucasnogueron.com.ar/</id>
   <author>
     <name><![CDATA[Lucas Nogueron]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bloggin Con Octopress]]></title>
+    <link href="http://www.lucasnogueron.com.ar/blog/2017/03/01/bloggin-con-octopress/"/>
+    <updated>2017-03-01T15:53:22-03:00</updated>
+    <id>http://www.lucasnogueron.com.ar/blog/2017/03/01/bloggin-con-octopress</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test Code II]]></title>
+    <link href="http://www.lucasnogueron.com.ar/blog/2017/03/01/test-code-ii/"/>
+    <updated>2017-03-01T15:52:19-03:00</updated>
+    <id>http://www.lucasnogueron.com.ar/blog/2017/03/01/test-code-ii</id>
+    <content type="html"><![CDATA[<p>Ember.js 2.2, a minor version release of Ember with backwards compatible
+changes, is released today. This release represents the work of over 60
+contributors.</p>
+
+<p>Ember.js 2.3 beta, the branch of Ember that will be released as stable in
+roughly six weeks, is also being released today.<!-- more --></p>
+
+<h3>Changes in Ember.js 2.2</h3>
+
+<p>Ember.js releases occur every six weeks, regardless of how significant the
+changes are. 2.2 introduces no new features, but does include performance
+improvements and bug fixes.</p>
+
+<p>Notable improvements include a performance fix for Ember&rsquo;s <code>_super</code>
+implementation under minification, and the skipping of <code>view</code> and <code>controller</code>
+template locals logic when operating without the view and controller legacy
+addons.</p>
+
+<p>For more details on changes landing in 2.2, review the
+<a href="https://github.com/emberjs/ember.js/blob/v2.2.0/CHANGELOG.md">Ember.js 2.2.0 CHANGELOG</a>.</p>
+
+<h3>Ember.js 2.3 beta</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test Code]]></title>
