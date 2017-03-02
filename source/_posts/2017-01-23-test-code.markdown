@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Test Code"
+date: 2017-01-23 17:18:41 -0300
+comments: true
+categories: 
+---
+Ember.js 2.2, a minor version release of Ember with backwards compatible
+changes, is released today. This release represents the work of over 60
+contributors.
+
+Ember.js 2.3 beta, the branch of Ember that will be released as stable in
+roughly six weeks, is also being released today.<!-- more -->
+
+### Changes in Ember.js 2.2
+
+Ember.js releases occur every six weeks, regardless of how significant the
+changes are. 2.2 introduces no new features, but does include performance
+improvements and bug fixes.
+
+Notable improvements include a performance fix for Ember's `_super`
+implementation under minification, and the skipping of `view` and `controller`
+template locals logic when operating without the view and controller legacy
+addons.
+
+For more details on changes landing in 2.2, review the
+[Ember.js 2.2.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v2.2.0/CHANGELOG.md).
+
+### Ember.js 2.3 beta
+
+Ember.js 2.3 beta is released today, and in six weeks it will become the
+new stable version of Ember. This beta cycle introduces several new features
+and a notable deprecation.
+
+#### `visit` API
+
+[Ember FastBoot](https://github.com/tildeio/ember-cli-fastboot) and new testing
+APIs motivated the addition of a `visit` method for `Ember.Application` and
+`Ember.ApplicationInstance` objects. Called on `Ember.Application` this
+method accepts several configuration options.
+
+For example, you might use this API to manually boot an Ember application
+and then instruct it to visit a URL:
+
+```js
+import MyApp from 'my-app';
+
+$(function() {
+  let App = MyApp.create({ autoboot: false });
+  let options = {
+    // Prevent this application from updating the URL in the address bar
+    location: 'none',
+    // Override the default `rootElement` to render into a specific `div`
+    // on the page
+    rootElement: '#demo'
+  };
+  App.visit('/demo', options).then((/* appInstance */) => {
+    $('#loading').fadeOut(); // Or any other logic after rendering
+  });
+});
+```
+
+Importantly, the addition of this API means **FastBoot
+is now usable with Ember.js beta**. FastBoot itself remains experimental,
+however this is the first time you can use it with a stock build of Ember.js.
+The [README.md for ember-cli-fastboot](https://github.com/tildeio/ember-cli-fastboot)
+is the best place to start if you want to try FastBoot.
