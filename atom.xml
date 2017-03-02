@@ -4,7 +4,7 @@
   <title><![CDATA[Seguridad Informatica e Informatica Forense]]></title>
   <link href="http://www.lucasnogueron.com.ar/atom.xml" rel="self"/>
   <link href="http://www.lucasnogueron.com.ar/"/>
-  <updated>2017-03-02T17:50:05-03:00</updated>
+  <updated>2017-03-02T18:11:36-03:00</updated>
   <id>http://www.lucasnogueron.com.ar/</id>
   <author>
     <name><![CDATA[Lucas Nogueron]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bloggin Con Octopress V2]]></title>
+    <link href="http://www.lucasnogueron.com.ar/blog/2017/03/02/bloggin-con-octopress-v2/"/>
+    <updated>2017-03-02T18:05:49-03:00</updated>
+    <id>http://www.lucasnogueron.com.ar/blog/2017/03/02/bloggin-con-octopress-v2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bloggin Con Octopress]]></title>
